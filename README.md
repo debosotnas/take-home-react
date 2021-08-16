@@ -26,3 +26,5 @@ npm start
 - IBM A11y checker: https://addons.mozilla.org/en-US/firefox/addon/accessibility-checker/
 - axe Dev Tools: https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd
 
+## Demo
+![App Demo](src/images/app-demo.gif?raw=true "App Demo")
