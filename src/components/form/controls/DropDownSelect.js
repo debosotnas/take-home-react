@@ -1,5 +1,5 @@
 import React from "react";
-import { FORM_CONTROLS } from "../../../pages/strings";
+import { FORM_CONTROLS } from "../../../strings";
 
 const DropDownSelect = (props) => {
   const hasError = () => {

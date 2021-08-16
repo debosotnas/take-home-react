@@ -4,7 +4,7 @@ import {
   InvalidSubscriptionError,
   UnknownSubscriptionError,
 } from "./Errors.js";
-import { ERRORS } from "../../pages/strings";
+import { ERRORS } from "../../strings";
 
 const testFetchSuccess = true;
 const testFetchDelay = 2000;

@@ -1,4 +1,4 @@
-import { FORM_CONTROLS } from "../../pages/strings";
+import { FORM_CONTROLS } from "../../strings";
 
 const Controls = FORM_CONTROLS.Controls;
 

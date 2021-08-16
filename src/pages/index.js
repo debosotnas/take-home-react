@@ -2,8 +2,8 @@ import "normalize.css";
 import * as React from "react";
 import "../styles/main.sass";
 import { Helmet } from "react-helmet";
-import { Box, Form } from "../components/index.js";
-import { TITLES } from "./strings.js";
+import { Form } from "../components/index.js";
+import { TITLES } from "../strings.js";
 
 const IndexPage = () => {
   return (

@@ -11,7 +11,7 @@ import {
   REG_EMAIL_VALIDATOR,
   FORM_SUBMISSION_STATE,
 } from "./constants";
-import { CTAS, TITLES } from "../../pages/strings";
+import { CTAS, TITLES } from "../../strings";
 import { submitSignUp } from "../api/api";
 import { NetworkError, InvalidSubscriptionError } from "../api/Errors";
 
@@ -91,6 +91,7 @@ const Form = () => {
         onSubmit={handleSubmit(onSubmit)}
         noValidate
         className={submissionState}
+        autoComplete="off"
       >
         <p>{TITLES.RequiredField}</p>
         <div className="form-controls">
