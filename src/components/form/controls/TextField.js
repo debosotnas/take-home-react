@@ -1,13 +1,17 @@
 import React from "react";
-import { isValidEmail } from "../helpers";
 
 const TextField = (props) => {
   const hasError = () => {
     return props.errors && Boolean(props.errors[props.id]);
   };
+
   return (
-    <div className={"form-input form-item"}>
-      {hasError() && <div className="error-caption">{props.error}</div>}
+    <div
+      className={
+        hasError() ? ["form-input form-item error"] : ["form-input form-item"]
+      }
+    >
+      <div className="error-caption">{props.error}</div>
       <div className="control">
         <label htmlFor={props.id}>
           {props.label}

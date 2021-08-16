@@ -95,3 +95,10 @@ export const API_SUBSCRIBE_URL = "http://api.hero-take-home.com/subscribe";
 
 export const REG_EMAIL_VALIDATOR =
   /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
+
+export const FORM_SUBMISSION_STATE = {
+  NOT_SENT: "not-sent",
+  LOADING: "loading",
+  SUCCESS: "success",
+  ERROR: "error",
+};

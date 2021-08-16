@@ -2,18 +2,19 @@ import React from "react";
 import { FORM_CONTROLS } from "../../../pages/strings";
 
 const CheckBoxGroup = (props) => {
-  const formItemWrapperId = "to-be-defined";
-
   const hasError = () => {
     return props.errors && Boolean(props.errors[props.id]);
   };
 
   return (
     <div
-      id={formItemWrapperId}
-      className={"form-input form-item-checkbox-group"}
+      className={
+        hasError()
+          ? ["form-input form-item-checkbox-group error"]
+          : ["form-input form-item-checkbox-group"]
+      }
     >
-      {hasError() && <div className="error-caption">{props.error}</div>}
+      <div className="error-caption">{props.error}</div>
       <div className="control">
         {props.label && (
           <label>

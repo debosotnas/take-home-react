@@ -7,8 +7,14 @@ const DropDownSelect = (props) => {
   };
 
   return (
-    <div className={"form-input form-item-dropdown"}>
-      {hasError() && <div className="error-caption">{props.error}</div>}
+    <div
+      className={
+        hasError()
+          ? ["form-input form-item-dropdown error"]
+          : ["form-input form-item-dropdown"]
+      }
+    >
+      <div className="error-caption">{props.error}</div>
       <div className="control">
         <label htmlFor={props.id}>
           {props.label}
