@@ -7,8 +7,10 @@ import { TITLES } from "../strings.js";
 
 const IndexPage = () => {
   return (
-    <div className="container">
+    <div className="container" role="main">
       <Helmet>
+        <html lang="en" />
+        <title>Hero Take Home (React Version)</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
