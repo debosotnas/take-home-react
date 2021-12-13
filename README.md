@@ -1,5 +1,5 @@
 # Take Home Project (React Version)
-Take Home is an interview project for Hero.
+Take Home is an interview project for HeroDigital.
 
 ## Installation
 Use node package manager to install Take Home dependencies [npm](https://www.npmjs.com/).
